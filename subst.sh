@@ -28,6 +28,5 @@ fi
 
 #--- now the time to do actual work:
 sed -e "s/$old_pattern/$new_pattern/g" $file_name
-
 # g is global flag causes to change each occurance of the pattern.
 # should read sed documnetation.
