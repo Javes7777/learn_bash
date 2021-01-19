@@ -1,0 +1,4 @@
+this is a text file to test the script
+the next line should be deleted when we run:
+i.e. all the empty lines would be erased.
+is it?
