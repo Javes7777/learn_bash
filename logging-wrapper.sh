@@ -21,6 +21,7 @@ OPTIONS="$@"
 # Log it.
 echo "`date` + $USER + $OPERATION "$@"" >> $LOGFILE
 #      date and username, then operation into logfile.
+# instead of $USER --can also use `whoami`
 # Now, do it.
 exec $OPERATION "$@"
 
